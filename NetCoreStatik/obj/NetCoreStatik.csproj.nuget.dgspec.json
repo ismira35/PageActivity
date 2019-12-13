@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\deno\\source\\repos\\NetCoreStatik\\NetCoreStatik\\NetCoreStatik.csproj": {}
+    "C:\\Users\\deno\\Desktop\\GitHub Repoları\\PageActivity\\NetCoreStatik\\NetCoreStatik.csproj": {}
   },
   "projects": {
-    "C:\\Users\\deno\\source\\repos\\NetCoreStatik\\NetCoreStatik\\NetCoreStatik.csproj": {
+    "C:\\Users\\deno\\Desktop\\GitHub Repoları\\PageActivity\\NetCoreStatik\\NetCoreStatik.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\deno\\source\\repos\\NetCoreStatik\\NetCoreStatik\\NetCoreStatik.csproj",
+        "projectUniqueName": "C:\\Users\\deno\\Desktop\\GitHub Repoları\\PageActivity\\NetCoreStatik\\NetCoreStatik.csproj",
         "projectName": "NetCoreStatik",
-        "projectPath": "C:\\Users\\deno\\source\\repos\\NetCoreStatik\\NetCoreStatik\\NetCoreStatik.csproj",
+        "projectPath": "C:\\Users\\deno\\Desktop\\GitHub Repoları\\PageActivity\\NetCoreStatik\\NetCoreStatik.csproj",
         "packagesPath": "C:\\Users\\deno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\deno\\source\\repos\\NetCoreStatik\\NetCoreStatik\\obj\\",
+        "outputPath": "C:\\Users\\deno\\Desktop\\GitHub Repoları\\PageActivity\\NetCoreStatik\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\deno\\AppData\\Roaming\\NuGet\\NuGet.Config",

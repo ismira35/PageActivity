@@ -30,10 +30,19 @@ namespace NetCoreStatik.Hubs
             events.userIp = myIp.Replace("\\n", "").Replace(" ", "");
             events.enterDate = DateTime.Now;
             events.connectionId = this.Context.ConnectionId;
-            UsersContext usersContext = Connection.NewConnection();
-            
+            try
+            {
+                UsersContext usersContext = Connection.NewConnection();
+
                 usersContext.Events.Add(events);
                 usersContext.SaveChanges();
+            }
+            catch (Exception)
+            {
+
+               
+            }
+         
          
             
         }
@@ -46,11 +55,19 @@ namespace NetCoreStatik.Hubs
         public void ExitSaveDb()
         {
 
-
+            try
+            {
                 UsersContext usersContext = Connection.NewConnection();
                 events = usersContext.Events.Where(a => a.connectionId == this.Context.ConnectionId).SingleOrDefault();
                 events.exitDate = DateTime.Now;
                 usersContext.SaveChanges();
+            }
+            catch (Exception)
+            {
+
+             
+            }
+                
             
         }
     }
